@@ -2,6 +2,7 @@ import React from 'react'
 import heroimage from '../assets/ppic.png'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from "framer-motion"
+import resume from '../assets/SaqibBhat_Resume.pdf'
 
 const HeroSection = () => {
   return (
@@ -30,7 +31,7 @@ const HeroSection = () => {
 
             <div>
 
-                <a href='/' className='border-2 border-gray-400  px-4 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white ease-linear duration-300 hover:text-orange-600 hover:bg-gradient-to-r hover:from-white hover:to-white hover:border-orange-600 font-bold'>Download CV</a>
+                <a href={resume} download={'Saqib-Bhat_Resume.pdf'} className='border-2 border-gray-400  px-4 py-3 w-full rounded-xl mr-4 bg-gradient-to-br from-orange-500 to-pink-500 text-white ease-linear duration-300 hover:text-orange-600 hover:bg-gradient-to-r hover:from-white hover:to-white hover:border-orange-600 font-bold'>Download CV</a>
 
                 <a href='#contact' className='px-4 py-3 w-full ease-linear duration-300 rounded-xl border-2 border-gray-400 hover:bg-gradient-to-br from-orange-500 to-pink-500 text-white font-bold'>Contact</a>
 
