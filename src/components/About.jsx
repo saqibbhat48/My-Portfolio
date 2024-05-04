@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div className="text-white max-w-6xl mx-auto mt-48" id="about">
+    <div className="text-white max-w-6xl mx-auto mt-56" id="about">
       <div className="md:grid md:grid-cols-2 sm:py-16">
         <motion.div
           initial={{ opacity: 0, x: -200 }}

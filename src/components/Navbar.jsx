@@ -19,6 +19,7 @@ const Navbar = () => {
         <ul className='hidden md:flex text-white gap-10 '>
             <li className='hover:text-orange-500 ease-linear duration-200 hover:bg-slate-600 p-2 text-center rounded-md font-bold'><a href='#home'>Home</a></li>
             <li className='hover:text-orange-500 ease-linear duration-200 hover:bg-slate-600 p-2 text-center rounded-md font-bold'><a href='#about'>About</a></li>
+            <li className='hover:text-orange-500 ease-linear duration-200 hover:bg-slate-600 p-2 text-center rounded-md font-bold'><a href='#work'>Work</a></li>
             <li className='hover:text-orange-500 ease-linear duration-200 hover:bg-slate-600 p-2 text-center rounded-md font-bold'><a href='#projects'>Projects</a></li>
             <li className='hover:text-orange-500 ease-linear duration-200 hover:bg-slate-600 p-2 text-center rounded-md font-bold'><a href='#contact'>Contact Me</a></li>
         </ul>
@@ -35,6 +36,7 @@ const Navbar = () => {
         <ul className='p-8 text-2xl text-white flex flex-col '>
             <li onClick={handleNav} className='hover:text-orange-500 ease-linear duration-200 hover:bg-slate-600 p-2 text-center rounded-md font-bold'><a href='#home'>Home</a></li>
             <li onClick={handleNav} className='hover:text-orange-500 ease-linear duration-200 hover:bg-slate-600 p-2 text-center rounded-md font-bold'><a href='#about'>About</a></li>
+            <li onClick={handleNav} className='hover:text-orange-500 ease-linear duration-200 hover:bg-slate-600 p-2 text-center rounded-md font-bold'><a href='#work'>Work</a></li>
             <li onClick={handleNav} className='hover:text-orange-500 ease-linear duration-200 hover:bg-slate-600 p-2 text-center rounded-md font-bold'><a href='#projects'>Projects</a></li>
             <li onClick={handleNav} className='hover:text-orange-500 ease-linear duration-200 hover:bg-slate-600 p-2 text-center rounded-md font-bold'><a href='#contact'>Contact Me</a></li>
         </ul>

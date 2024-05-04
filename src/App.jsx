@@ -7,6 +7,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { useEffect, useState } from 'react'
 import { motion } from "framer-motion"
+import Experience from './components/Experience'
 
 
 
@@ -28,6 +29,7 @@ function App() {
      <HeroSection/>
      <About/>
      <MySkills/>
+     <Experience/>
      <Projects/>
      <Contact/>
      <Footer/> </>

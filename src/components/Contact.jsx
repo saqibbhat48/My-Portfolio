@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <motion.div initial={{opacity:0, x:300}} whileInView={{opacity:1, x:0}} transition={{duration:2, delay:0}} className="max-w-6xl mx-auto sm:py-10 p-5 mt-48" id="contact">
+    <motion.div initial={{opacity:0, y:100}} whileInView={{opacity:1, y:0}} transition={{duration:2, delay:0}} className="max-w-6xl mx-auto sm:py-10 p-5 mt-56" id="contact">
       <div className="text-center">
         <h2 className="text-4xl font-bold leading-tight custom-color mb-2">
           Contact Me
