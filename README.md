@@ -10,16 +10,22 @@ I'm Saqib Ismail Bhat, a passionate frontend developer with expertise in HTML, C
 
 ### [CryptoCurrency Web App](https://cryptocurrencyinfo-bysaqib.netlify.app)
 
-Description: Brief description of the project, its purpose, and the technologies used.
+Description: A web application 
+            that provides users with information about the top 50 cryptocurrencies, crypto news, and upcoming exchanges.
+
+
+### [Tic-Tac-Toe Game](https://tictactoe-bysaqib.netlify.app/)
+
+Description: This entertaining game of tic tac toe that allows two players to take turns marking spaces in a 3x3 grid and much more.
 
 
 ### [To-Do List App](https://todolist-bysaqib.netlify.app/)
 
-Description: Brief description of the project, its purpose, and the technologies used.
+Description: A web application that allows users to manage their tasks effectively, including features like adding tasks with due dates, marking tasks as completed, editing task names and deleting tasks.
 
 ### [Currency Converter](https://currencyconverter-bysaqib.netlify.app/)
 
-Description: Brief description of the project, its purpose, and the technologies used.
+Description: Currency Converter is a simple React application that allows users to convert currencies based on real-time exchange rates.
 
 ## Skills
 
