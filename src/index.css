@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #252632;
+    @apply bg-slate-900
 }
 
 .bg-custom-color{

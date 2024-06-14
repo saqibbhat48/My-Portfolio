@@ -11,7 +11,7 @@ const Contact = () => {
       </div>
 
       <div className=" max-w-[50rem] mx-auto">
-        <div className=" bg-slate-900 rounded-xl">
+        <div className=" bg-slate-800 rounded-xl">
           <div className="p-10">
             <form action="https://getform.io/f/pboxqvga" method="POST">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">

@@ -6,7 +6,8 @@ import git from '../assets/git.png'
 
 const Footer = () => {
   return (
-    <div className='max-w-6xl sm:h-36 p-12 flex flex-col items-center  mx-auto'>
+    <div className='bg-slate-950'>
+      <div className='max-w-6xl sm:h-36 p-12 flex flex-col items-center  mx-auto'>
       <div className='flex gap-10'>
       <span className='custom-color font-bold'>Saqib Bhat</span>
       <p className='text-gray-300'>bhatsaqib48@gmail.com</p>
@@ -23,6 +24,7 @@ const Footer = () => {
         <a href="https://github.com/saqibbhat48" target='_main'><img src={git} alt='Github' width={20} className='bg-white rounded-sm'/></a>
         </div>
       </div>
+    </div>
     </div>
   )
 }

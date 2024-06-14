@@ -12,8 +12,8 @@ const MySkills = () => {
   return (
     <motion.div initial={{ opacity: 0, y: 150 }}
     whileInView={{ opacity: 1, y: 0 }}
-    transition={{ duration: 1, delay: 0 }} className='bg-[#252632] py-4 px-2'>
-    <div className='bg-[#252632] text-white md:h-36 max-w-6xl mx-auto grid grid-cols-3 place-items-center md:flex md:justify-between md:items-center border-2 border-gray-400 '>
+    transition={{ duration: 1, delay: 0 }} className='py-4 px-2'>
+    <div className='bg-slate-900 text-white md:h-36 max-w-6xl mx-auto grid grid-cols-3 place-items-center md:flex md:justify-between md:items-center border-2 border-gray-400 '>
 
         <h2 className='text-white text-2xl md:text-4xl font-bold m-4'>
             My <br/> Tech <br/> Stact

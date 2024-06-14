@@ -11,7 +11,7 @@ const Experience = () => {
       <motion.div initial={{ opacity: 0, x: -100 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 1.5, delay: 0 }} className="pb-8">
-        <h1 className="text-4xl mb-3 font-bold custom-color">
+        <h1 className="text-4xl mb-3 p-2 font-bold custom-color">
           Work Experience
         </h1>
       </motion.div>
@@ -19,7 +19,7 @@ const Experience = () => {
       <div className="grid  md:grid-cols-3 gap-4">
         <motion.div initial={{ opacity: 0, x: 100 }}
       whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1.5, delay: 0 }} className="col-span-3 text-white bg-slate-900 rounded-lg p-4">
+      transition={{ duration: 1.5, delay: 0 }} className="col-span-3 text-white bg-slate-950 rounded-lg p-4">
           <h1 className="text-3xl">Frontend Developer Intern</h1>
           <h2 className="text-2xl">Unified Mentor Private Limited</h2>
           <h3 className="text-xl">15/03/2024 - 15/04/2024</h3>
