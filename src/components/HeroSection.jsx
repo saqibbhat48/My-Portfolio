@@ -2,7 +2,7 @@ import React from "react";
 import heroimage from "../assets/ppic.png";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-import resume from "../assets/SaqibBhat_Resume.pdf";
+import resume from "../assets/Saqib_Bhat_Resume.pdf";
 
 const HeroSection = () => {
   return (
