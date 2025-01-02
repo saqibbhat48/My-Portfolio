@@ -22,7 +22,7 @@ const HeroSection = () => {
           <h1 className="text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold">
             <span className="custom-color">I'm a</span> <br />
             <TypeAnimation
-              sequence={["Frontend Dev", 1000, "Web Designer", 1000]}
+              sequence={["Frontend Dev", 1000, "Backend Dev", 1000]}
               wrapper="span"
               speed={40}
               repeat={Infinity}
@@ -30,11 +30,8 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-white sm:text-lg my-6 lg:text-xl">
-            Hi there! I'm Saqib Ismail Bhat, a young front-end developer that is
-            motivated to succeed in the web development industry. Equipped with
-            a strong foundation in HTML, CSS, JavaScript, React and Tailwind
-            CSS, I approach every project with a new outlook and a voracious
-            appetite for knowledge.
+          Hi, I'm Saqib Ismail Bhat! 👋
+           a passionate MERN Stack Developer specializing in crafting full-stack applications that are both functional and visually appealing. With expertise in React.js, Node.js, MongoDB, and Express.js, I build seamless user experiences from front to back.
           </p>
 
           <div>

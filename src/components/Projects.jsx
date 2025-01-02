@@ -4,7 +4,7 @@ import todo from "../assets/todo.jpg";
 import converter from "../assets/converter.jpg";
 import tictactoe from "../assets/tictactoe.jpg";
 import timeless from "../assets/timeless.jpg";
-import ats from "../assets/ats.jpg";
+import chatty from "../assets/chatty.jpg";
 import { motion } from "framer-motion";
 
 const Projects = () => {
@@ -28,13 +28,13 @@ const Projects = () => {
         className="grid sm:grid-cols-2 md:grid-cols-3 sm:gap-8 md:gap-4 gap-10"
       >
         <div className="transform transition-transform duration-300 ease-linear hover:scale-105 overflow-hidden shadow-lg shadow-black group container rounded-md flex flex-col justify-center items-center mx-auto bg-cover relative bg-slate-700">
-          <img src={ats} alt="" />
+          <img src={chatty} alt="" />
           <div className="opacity-0 group-hover:opacity-95 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2xl font-bold text-white tracking-wider"></span>
 
             <div className="pt-8 text-center">
               <a
-                href="https://ats-bysaqib.netlify.app/"
+                href="https://chat-app-1hvo.onrender.com/"
                 target="_main"
               >
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white duration-300 ease-linear">
@@ -42,7 +42,7 @@ const Projects = () => {
                 </button>
               </a>
               <a
-                href="https://github.com/saqibbhat48/Applicant-Tracking_System"
+                href="https://github.com/saqibbhat48/chat-app"
                 target="_main"
               >
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white duration-300 ease-linear">
@@ -53,13 +53,13 @@ const Projects = () => {
           </div>
           <div className="p-2 text-white">
             <h1 className="font-bold text-center text-xl underline">
-              CryptoCurrency Web App
+            Chatty
             </h1>
             <p className="p-1 leading-4">
-            This project is a Applicant Tracking System that allows candidates to apply for jobs, job posting creation by employers, coordinators to approve job postings and recruiters to review, shortlist candidates and finally shortlisted candidates will appear on employer and coordinator dashboard.
+            A real-time chat application built using the MERN stack (MongoDB, Express, React, Node.js), Socket.io, and styled with Tailwind CSS and Daisy UI. The app includes features such as user authentication, real-time messaging, theme selection, and profile management.
             </p>
             <div className="flex gap-4 justify-center mt-2">
-              <h3 className="bg-slate-900 p-2 rounded-xl">React.js</h3>
+              <h3 className="bg-slate-900 p-2 rounded-xl">MERN</h3>
               <h3 className="bg-slate-900 p-2 rounded-xl">React Router</h3>
               <h3 className="bg-slate-900 p-2 rounded-xl">Tailwind CSS</h3>
             </div>

@@ -15,16 +15,25 @@ const About = () => {
           <div className="my-auto mx-6">
             <h2 className="custom-color text-4xl font-bold mb-4">About me</h2>
             <p className="text-base lg:text-lg">
-            Hello! 👋 As a frontend developer with an eye for designing fluid online experiences, my name is Saqib Ismail Bhat. HTML, CSS, JavaScript, Tailwind CSS, React.js, and the strength of Git and GitHub are all part of my toolkit. I have a strong love for turning designs into vibrant, intuitive user interfaces that make an impact. I'm excited to join your team and contribute my abilities and energy. Together, let's create something truly amazing!
+              Hi, I'm Saqib Ismail Bhat, a passionate and detail-oriented MERN
+              Stack Developer dedicated to creating robust, scalable, and
+              visually appealing web applications. I specialize in crafting
+              seamless full-stack solutions using MongoDB, Express.js, React.js,
+              and Node.js. With a strong foundation in frontend development, I
+              excel in building intuitive and responsive user interfaces. My
+              backend expertise allows me to design and implement efficient
+              server-side architectures, ensuring a smooth flow of data and
+              functionality.
             </p>
           </div>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: 200 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0 }}
-          className="rounded-3xl overflow-hidden max-w-max mx-auto my-8 md:my-0 ">
+          className="rounded-3xl overflow-hidden max-w-max mx-auto my-8 md:my-0 "
+        >
           <img src={view} width={300} height={300} />
         </motion.div>
       </div>
