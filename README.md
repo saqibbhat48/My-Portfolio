@@ -33,6 +33,9 @@ Description: Currency Converter is a simple React application that allows users 
 - CSS
 - JavaScript
 - React.js
+- Node.js
+- Express.js
+- MongoDB
 - Tailwind CSS
 - Git
 - GitHub
