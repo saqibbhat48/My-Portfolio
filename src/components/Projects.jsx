@@ -1,6 +1,6 @@
 import React from "react";
+import bookStore from "../assets/bookStore.jpg";
 import crypto from "../assets/crypto.jpg";
-import todo from "../assets/todo.jpg";
 import converter from "../assets/converter.jpg";
 import tictactoe from "../assets/tictactoe.jpg";
 import timeless from "../assets/timeless.jpg";
@@ -60,20 +60,20 @@ const Projects = () => {
             </p>
             <div className="flex gap-4 justify-center mt-2">
               <h3 className="bg-slate-900 p-2 rounded-xl">MERN</h3>
-              <h3 className="bg-slate-900 p-2 rounded-xl">React Router</h3>
+              <h3 className="bg-slate-900 p-2 rounded-xl">Socket.io</h3>
               <h3 className="bg-slate-900 p-2 rounded-xl">Tailwind CSS</h3>
             </div>
           </div>
         </div>
 
         <div className="transform transition-transform duration-300 ease-linear hover:scale-105 overflow-hidden shadow-lg shadow-black group container rounded-md flex flex-col justify-center items-center mx-auto bg-cover relative bg-slate-700">
-          <img src={crypto} alt="" />
+          <img src={bookStore} alt="" />
           <div className="opacity-0 group-hover:opacity-95 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2xl font-bold text-white tracking-wider"></span>
 
             <div className="pt-8 text-center">
               <a
-                href="https://cryptocurrencyinfo-bysaqib.netlify.app/"
+                href="https://bookheaven-gc3e.onrender.com/"
                 target="_main"
               >
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white duration-300 ease-linear">
@@ -81,7 +81,7 @@ const Projects = () => {
                 </button>
               </a>
               <a
-                href="https://github.com/saqibbhat48/Crypto_Currency_Web_App"
+                href="https://github.com/saqibbhat48/bookStore"
                 target="_main"
               >
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white duration-300 ease-linear">
@@ -92,15 +92,14 @@ const Projects = () => {
           </div>
           <div className="p-2 text-white">
             <h1 className="font-bold text-center text-xl underline">
-              CryptoCurrency Web App
+              Book Store
             </h1>
             <p className="p-1 leading-4">
-              A web application that provides users with information about the
-              top 50 cryptocurrencies, crypto news, and upcoming exchanges.
+            A full-stack bookstore web app with authentication, cart functionality, and an admin panel. Users can browse books, add to favorites, place COD orders, and track order status. Admins can manage books and orders. 
             </p>
             <div className="flex gap-4 justify-center mt-2">
-              <h3 className="bg-slate-900 p-2 rounded-xl">React.js</h3>
-              <h3 className="bg-slate-900 p-2 rounded-xl">React Router</h3>
+              <h3 className="bg-slate-900 p-2 rounded-xl">MERN</h3>
+              <h3 className="bg-slate-900 p-2 rounded-xl">Redux</h3>
               <h3 className="bg-slate-900 p-2 rounded-xl">Tailwind CSS</h3>
             </div>
           </div>
@@ -182,18 +181,21 @@ const Projects = () => {
         </div>
 
         <div className="transform transition-transform duration-300 ease-linear hover:scale-105 overflow-hidden shadow-lg shadow-black group container rounded-md flex flex-col justify-center items-center mx-auto bg-cover relative bg-slate-700">
-          <img src={todo} alt="" />
+          <img src={crypto} alt="" />
           <div className="opacity-0 group-hover:opacity-95 bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
             <span className="text-2xl font-bold text-white tracking-wider"></span>
 
             <div className="pt-8 text-center">
-              <a href="https://todolist-bysaqib.netlify.app/" target="_main">
+              <a
+                href="https://cryptocurrencyinfo-bysaqib.netlify.app/"
+                target="_main"
+              >
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white duration-300 ease-linear">
                   Live
                 </button>
               </a>
               <a
-                href="https://github.com/saqibbhat48/To-Do-List"
+                href="https://github.com/saqibbhat48/Crypto_Currency_Web_App"
                 target="_main"
               >
                 <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg hover:bg-black hover:text-white duration-300 ease-linear">
@@ -204,17 +206,16 @@ const Projects = () => {
           </div>
           <div className="p-2 text-white">
             <h1 className="font-bold text-center text-xl underline">
-              To-Do List
+              Book Store
             </h1>
             <p className="p-1 leading-4">
-              A web application that allows users to manage their tasks
-              effectively, including features like adding tasks with due dates,
-              marking tasks as completed, editing task names and deleting tasks.
+              A web application that provides users with information about the
+              top 50 cryptocurrencies, crypto news, and upcoming exchanges.
             </p>
             <div className="flex gap-4 justify-center mt-2">
-              <h3 className="bg-slate-900 p-2 rounded-xl">JavaScript</h3>
+              <h3 className="bg-slate-900 p-2 rounded-xl">React.js</h3>
+              <h3 className="bg-slate-900 p-2 rounded-xl">React Router</h3>
               <h3 className="bg-slate-900 p-2 rounded-xl">Tailwind CSS</h3>
-              <h3 className="bg-slate-900 p-2 rounded-xl">HTML</h3>
             </div>
           </div>
         </div>
