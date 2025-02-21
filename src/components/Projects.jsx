@@ -206,7 +206,7 @@ const Projects = () => {
           </div>
           <div className="p-2 text-white">
             <h1 className="font-bold text-center text-xl underline">
-              Book Store
+              Crypto Currency Web App
             </h1>
             <p className="p-1 leading-4">
               A web application that provides users with information about the
